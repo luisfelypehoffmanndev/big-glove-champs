@@ -1,0 +1,1 @@
+var e=new URL(`template-DSxYanNL.glb`,import.meta.url).href;export{e as default};
