@@ -1,0 +1,1 @@
+var e=new URL(`template-DSV71w8n.glb`,import.meta.url).href;export{e as default};
