@@ -1,0 +1,1 @@
+import{D as e,H as t,U as n,f as r,o as i,s as a}from"./index-Cp_tDyEO.js";var o=[...a.roster,...i.bots];function s(i){let a=(i??``).split(`,`).map(e=>o.find(t=>t.id===e.trim())),s=e=>n[e]??t[e];if(a.length!==2||a.some(e=>!e||!s(e.id)))return null;let[c,l]=a;return{looks:[e(c.look,r,!0),e(l.look,r,!0)],profiles:[s(c.id),s(l.id)]}}export{s as rosterPair};
